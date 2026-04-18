@@ -92,33 +92,51 @@ using namespace std;
 //     cout<<"YY object after assigning: "<<yy.a<<endl;
 // }
 
-//
-class PrefixIncrement{
+// //PrefixPostfix Operator Overloading
+// class PrefixIncrement{
+//     public:
+//     int a;
+//     PrefixIncrement(){
+//         cin>>a;
+//     }
+//     void operator++(){
+//         ++a;
+//     }
+// };
+// class PostfixIncrement{
+//     public:
+//     int a;
+//     PostfixIncrement(){
+//         cin>>a;
+//     }
+//     void operator++(int){
+//         a++;
+//     }
+// };
+// int main(void){
+    //     PrefixIncrement xx;
+    //     ++xx;
+//     cout<<"XX object after assigning: "<<xx.a<<endl;
+
+//     PostfixIncrement yy;
+//     yy++;
+//     cout<<"YY object after assigning: "<<yy.a<<endl;
+// }
+
+//== Equal to Operator Overloading
+class EqualTo{
     public:
     int a;
-    PrefixIncrement(){
+    EqualTo(){
         cin>>a;
     }
-    void operator++(){
-        ++a;
-    }
-};
-class PostfixIncrement{
-    public:
-    int a;
-    PostfixIncrement(){
-        cin>>a;
-    }
-    void operator++(int){
-        a++;
+    bool operator==(EqualTo yy){
+        if(a==yy.a) return true;
+        else return false;
     }
 };
 int main(void){
-    PrefixIncrement xx;
-    ++xx;
-    cout<<"XX object after assigning: "<<xx.a<<endl;
-    
-    PostfixIncrement yy;
-    yy++;
-    cout<<"YY object after assigning: "<<yy.a<<endl;
+    EqualTo xx,yy;
+    if (xx==yy) cout<<"They are Equal"<<endl;
+    else cout<<"They are Not Equal"<<endl;
 }
