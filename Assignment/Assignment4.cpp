@@ -13,33 +13,33 @@ using namespace std;
 //     }
 // };
 // class Substract{
-    // public:
-    //     int a;
-    //     Substract(){
-        //         cin>>a;
-        //     }
-        //     void operator-(Substract bb){
-            //         a-=bb.a;
+//     public:
+//         int a;
+//         Substract(){
+//                 cin>>a;
+//             }
+//             void operator-(Substract bb){
+//                     a-=bb.a;
 //     }
 // };
 // class Multiply{
 // public:
 //     int a;
 //     Multiply(){
-    //         cin>>a;
-    //     }
+//             cin>>a;
+//         }
 //     void operator*(Multiply kk){
-    //         a*=kk.a;
-    //     }
-    // };
+//             a*=kk.a;
+//         }
+//     };
 // class Divide{
-    // public:
-    //     int a;
-    //     Divide(){
-        //         cin>>a;
-        //     }
-        //     void operator/(Divide nn){
-            //         a/=nn.a;
+//     public:
+//         int a;
+//         Divide(){
+//                 cin>>a;
+//             }
+//             void operator/(Divide nn){
+//                     a/=nn.a;
 //     }
 // };
 
@@ -56,18 +56,18 @@ using namespace std;
 
 // //"=" Assignment Operator Overloading
 // class Assign{
-    // public:
-    //     int a;
+//     public:
+//         int a;
 //     Assign(){
-    //         cin>>a;
-    //     }
-    //     void operator=(Assign nn){
+//             cin>>a;
+//         }
+//         void operator=(Assign nn){
 //         a=nn.a;
 //     }
 // };
 // int main(void){
-    //     Assign xx,yy;
-    //     cout<<"XX object then: "<<xx.a<<endl;
+//     Assign xx,yy;
+//     cout<<"XX object then: "<<xx.a<<endl;
 //     xx=yy;
 //     cout<<"XX object after assigning: "<<xx.a<<endl;
 // }
@@ -114,8 +114,8 @@ using namespace std;
 //     }
 // };
 // int main(void){
-    //     PrefixIncrement xx;
-    //     ++xx;
+//     PrefixIncrement xx;
+//     ++xx;
 //     cout<<"XX object after assigning: "<<xx.a<<endl;
 
 //     PostfixIncrement yy;
