@@ -47,7 +47,7 @@ using namespace std;
 //     Add xx,yy;
 //     xx+yy; cout<<"Addition: "<<xx.a<<endl;
 //     Substract aa,bb;
-//     aa-bb; cout<<"Substraction: "<<aa.a<<endl;
+//     aa-bb; cout<<"Substraction: "<<aa.a<<endl; 
 //     Multiply hh,kk;
 //     hh*kk; cout<<"Multplication: "<<hh.a<<endl;
 //     Divide mm,nn;
